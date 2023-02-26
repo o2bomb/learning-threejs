@@ -62,3 +62,5 @@ export const Experience = () => {
 - A custom geometry can be created using classic three.js techniques (using Float32Array, assigning vertex positions via a buffer attribute attached to a buffer geometry via the `attach` prop). The `useMemo()` hook is used to store the vertices positions in between component rerenders
 - A custom object's geometry may not have the correct normals by default, resulting in a no-colour object. `computeVertexNormals()` can be called once in a `useEffect()` hook on the object's geometry in order to calculate the correct normals for the geometry, thus fixing the colour of the object
 - on a material, THREE.DoubleSide can be passed to the `side` prop to enable double-sided faces
+
+![image](https://user-images.githubusercontent.com/41817193/221414134-58b9f46c-3ad9-4366-9837-f79b90f6d777.png)
