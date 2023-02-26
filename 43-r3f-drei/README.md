@@ -10,3 +10,5 @@
 - Text allows certain fonts to be rendered within the 3d world. It is performant and supports line-breaks. It can also be transformed within the 3d world
 - The Float component can be wrapped around an object to make it "hover" like a hoverboard
 - Planar objects can easily be made reflective by specifying its material as MeshReflectorMaterial. This material can be made more mirror-like by specifiying a value between 0-1 for the `mirror` prop. The `color` prop changes the colour of the mirror, however the colour produced is not guaranteed to be accurate
+
+![image](https://user-images.githubusercontent.com/41817193/221412136-be2d18b4-50a5-4c29-9d99-de22739d5422.png)
